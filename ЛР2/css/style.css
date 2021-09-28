@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+h2, p{
+	text-align: center;
+}
+p{
+	font-size: 14px;
+}
+.aboutus{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 30px;
+    line-height: 22px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+.contanier{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 105px;
+}
+.contanier .element{
+	flex-basis: 30%;
+}
+.contanier .element .image{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.contanier .element .title{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+.contanier .element .subtitle{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 13px;
+    line-height: 17px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+@media screen and (max-width: 650px){
+	.contanier{
+		flex-direction: column;
+	}
+}
